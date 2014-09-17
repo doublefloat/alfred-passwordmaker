@@ -4,6 +4,7 @@
 __author__ = 'joe'
 
 import uuid
+import settings
 
 class Profile():
     def __init__(self,
@@ -18,7 +19,7 @@ class Profile():
 
                  # settings for the key generation
                  hash_algorithm = 'sha256', username = '', modifier = '', password_length = 8,
-                 selected_charset = 'utf8',
+                 selected_charset = settings.CHARSET_OPTIONS[0],
                  password_prefix = '', password_suffix = '', where_to_use_l33t = 'off', l33t_level = 0
                  ):
         self.id = id
