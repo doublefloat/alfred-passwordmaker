@@ -70,8 +70,3 @@ class HashUtils:
 
 
 
-if __name__ == '__main__':
-    util = HashUtils()
-    print util.rstr2binl("123456")
-    print util.binl2str([875770417, 13877])
-

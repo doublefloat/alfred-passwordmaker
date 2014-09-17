@@ -10,5 +10,3 @@ hashUtil = HashUtils()
 
 pwm = PasswordMaker(profile=profile, hashUtil=hashUtil)
 
-if __name__ == '__main__':
-    print pwm.gen_password('g7caphe', 'baidu.com') == 'ne#B:ZgC+\'$2'
